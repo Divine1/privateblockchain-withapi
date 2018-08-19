@@ -15,7 +15,7 @@ Entry point for the application is `index.js`
 ` npm install --save body-parser `
 
 
-body-parser library is use to parse `body parameter of HTTP POST request`
+`body-parser` library is use to parse body parameter of HTTP POST request
 
 ## End point details
 
