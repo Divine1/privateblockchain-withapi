@@ -2,7 +2,7 @@
 
 ## Nodejs framework
 
-[Expressjs] (https://expressjs.com/) framework is used in this project
+(Expressjs) [https://expressjs.com/] framework is used in this project
 ` npm install --save express `
 
 Entry point for the application is `index.js`
