@@ -31,6 +31,9 @@ URL configured in this Project : `http://localhost:9000`
         - content-type : application/json
         - Request body : ` { body : your block message } `
 
+You can also enter an invalid endpoint say for example `http://localhost:9000/xyz` to view the end point details
+
+
 ## Below are the description for private blockchain project without API
 
 
