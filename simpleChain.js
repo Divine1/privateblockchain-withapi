@@ -13,9 +13,9 @@ class Block{
 
 class Blockchain{
 	  constructor(){
-    	this.chain = [];
+    	//this.chain = [];
         //this.addBlock(new Block("first block"));
-      this.genesisBlock(new Block("first block"));
+      //this.genesisBlock(new Block("first block"));
     }
    async genesisBlock(genesisBlock){
     let chainLength = await db.getBlockChainLength();

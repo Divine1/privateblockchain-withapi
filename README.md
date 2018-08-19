@@ -34,12 +34,11 @@ URL configured in this Project : `http://localhost:9000`
 You can also enter an invalid endpoint say for example `http://localhost:9000/xyz` to view the end point details
 
 
-## Below are the description for private blockchain project without API
+## Below are the description for functionalities in private blockchain 
 
 
-#### Create first block. This first block in block chain is called as the genesis block.Genesis block is persisted via constructor
+#### Create first block. This first block in block chain is called as the genesis block. This genesis block can be created only by sending POST request with uri `/block`
 
-`var bl = new Blockchain();`
 
 #### Add new block to the blockchain network
 
