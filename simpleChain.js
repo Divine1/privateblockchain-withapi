@@ -114,7 +114,7 @@ class Blockchain{
 var genesisBlock = () => {
   console.log("in genesisBlock()")
   const blockchain = new Blockchain()
-  blockchain.addBlock(new Block("first block"));
+  
   blockchain.genesisBlock(new Block("first block"));
 }
 
