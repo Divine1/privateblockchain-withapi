@@ -13,9 +13,7 @@ class Block{
 
 class Blockchain{
 	  constructor(){
-    	//this.chain = [];
-        //this.addBlock(new Block("first block"));
-      //this.genesisBlock(new Block("first block"));
+    	
     }
    async genesisBlock(genesisBlock){
     let chainLength = await db.getBlockChainLength();
@@ -113,7 +111,13 @@ class Blockchain{
 
 }
 
-//new Blockchain()
-//db.printAllBlocks().then(()=>console.log(""))
+var genesisBlock = () => {
+  console.log("in genesisBlock()")
+  const blockchain = new Blockchain()
+  blockchain.addBlock(new Block("first block"));
+  blockchain.genesisBlock(new Block("first block"));
+}
+
+genesisBlock();
 
 module.exports = {Blockchain,Block};
